@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image:url("/project2/image/bangladesh.jpg");
+    background-image:url("bangladesh.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -116,7 +116,7 @@ button:hover{
 }
 
 .next2{
-    background-image: url("/project2/image/india.jpg");
+    background-image: url("india.jpg");
     height: 180px;
     width: 200px;  
     display: block; 
@@ -132,7 +132,7 @@ button:hover{
     width: 220px;
 }
 .next3{
-    background-image: url("/project2/image/japan.jpg");
+    background-image: url("japan.jpg");
     height: 180px;
     width: 200px;  
     display: block; 
@@ -148,7 +148,7 @@ button:hover{
     width: 220px;
 }
 .next4{
-    background-image: url("/project2/image/nepal.jpg");
+    background-image: url("nepal.jpg");
     height: 180px;
     width: 200px;  
     display: block; 
