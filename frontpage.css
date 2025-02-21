@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    color:white;
+    background-image:url("/project2/image/world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: fantasy;
+    font-size: 18px;
+}
+.nav ul li{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 200px;
+    transition: 0.4s ease-in;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.bodi{
+    padding: 0;
+    margin-left: 55px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    width: 800px;
+}
+
+.headings h2{
+    font-size: 25px;
+    padding-bottom: 18px;
+    padding-top: 20px;
+}
+.headings h1{
+    padding: 0;
+    margin:0 50px 0 0;
+    font-size: 30px;
+}
+.bodis{
+    margin-top: 30px;
+    line-height: 1.2;
+    font-size: 14px;
+    word-spacing: 4px;
+}
+.butn{
+    margin-left: 40px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #cccccc;
+    transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3b82f6;
+    color: #a7f3d0;
+    cursor: #1e3a8a;
+    height: 35px;
+}
+.footer{
+    display: flex;
+    margin: 10px 150px ;
+    width: 100px;
+}
+.footer i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#a9a9a9;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 80px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer i:hover{
+    background-color:grey;
+    columns: white;
+    height: 22px;
+}
+.next{
+    display: flex;
+    justify-content: right;
+    margin-left: 20px;
+}
+.next1{
+    text-decoration: none;
+    background-image: url("/project2/image/bangladesh.jpg");
+    height: 180px;
+    width: 200px;  
+    display: block; 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.next1:hover{
+    height: 190px;
+    width: 220px;
+}
+
+.next2{
+    background-image: url("/project2/image/india.jpg");
+    height: 180px;
+    width: 200px;  
+    display: block; 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.next2:hover{
+    height: 190px;
+    width: 220px;
+}
+.next3{
+    background-image: url("/project2/image/japan.jpg");
+    height: 180px;
+    width: 200px;  
+    display: block; 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.next3:hover{
+    height: 190px;
+    width: 220px;
+}
+.next4{
+    background-image: url("/project2/image/nepal.jpg");
+    height: 180px;
+    width: 200px;  
+    display: block; 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.next4:hover{
+    height: 190px;
+    width: 220px;
+}
+.text{
+    margin-top: 125px;
+    padding-left: 10px;
+    line-height: 1;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
