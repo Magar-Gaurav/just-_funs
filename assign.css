@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    display: flex;
+}
+
+table{
+    margin: 30px;
+    border-collapse: collapse;
+    width: 400px;
+    height: 150px;
+}
+th{
+    background-color: yellow;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+    height: 10px;
+    width: 20px;
+}
+.second{
+    display: flex;
+}
+.red{
+    margin-left: 100px;
+}
+textarea{
+    width: 300px;
+    height: 70px;
+}
+.list{
+    margin-left: 20px;
+}

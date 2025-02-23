@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta lang="en" />
+    <title>Assignment no 1</title>
+    <link rel="stylesheet" href="assignment.css" />
+  </head>
+  <body>
+    <div class="first">
+      <!-- Table-1 -->
+      <table border="1">
+        <tr class="row_1">
+          <th>S.N</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+        <tr class="row_2">
+          <td>1</td>
+          <td>Ram</td>
+          <td>25</td>
+          <td>Kathmandu</td>
+        </tr>
+        <tr class="row_3">
+          <td>2</td>
+          <td>Sita</td>
+          <td>20</td>
+          <td>Pokhara</td>
+        </tr>
+        <tr class="row_4">
+          <td>3</td>
+          <td>Gita</td>
+          <td>21</td>
+          <td>Chitwan</td>
+        </tr>
+        <tr class="row_5">
+          <td>4</td>
+          <td>Rokky</td>
+          <td>24</td>
+          <td>Dhangadi</td>
+        </tr>
+      </table>
+      <!-- Webpage -->
+      <table border="1" style="margin-left: 100px">
+        <tr>
+          <th colspan="2" style="background-color: rgb(68, 200, 68)">
+            Janamaitri Multiple Campus
+          </th>
+        </tr>
+        <tr>
+          <td><div class="logo">Logo</div></td>
+          <td>
+            Programs:
+            <ul>
+              <li>BICT</li>
+              <li>BCA</li>
+              <li>BBM</li>
+              <li>BBS</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <!-- Table-2 -->
+      <table border="1">
+        <tr>
+          <th style="background-color: rgb(68, 200, 68)" rowspan="2">S.N</th>
+          <th style="background-color: rgb(68, 200, 68)" rowspan="2">Name</th>
+          <th style="background-color: rgb(68, 200, 68)" colspan="2">Gender</th>
+        </tr>
+        <tr>
+          <th style="background-color: rgb(68, 200, 68)">M</th>
+          <th style="background-color: rgb(68, 200, 68)">F</th>
+        </tr>
+        <tr style="background-color: lightyellow">
+          <td>1</td>
+          <td>Ramesh</td>
+          <td>male</td>
+          <td></td>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow">
+          <td>2</td>
+          <td>Gita</td>
+          <td></td>
+          <td>Female</td>
+        </tr>
+      </table>
+      <div class="red">
+        <!-- Review Form -->
+        <h1 style="font-size: 24px">Review Form</h1>
+        <form>
+          <!-- for name -->
+          <div class="fir">
+            <label for="fir_name">First Name:</label
+            ><input
+              type="text"
+              id="fir_name"
+              placeholder="Enter your First Name"
+              required
+            />
+          </div>
+          <br />
+          <div class="fir">
+            <label for="mid_name">Second Name:</label
+            ><input
+              type="text"
+              id="sec_name"
+              placeholder="Enter your Middle Name"
+            />
+          </div>
+          <br />
+          <div class="fir">
+            <label for="las_name">Last Name:</label
+            ><input
+              type="text"
+              id="thir_name"
+              placeholder="Enter your Last Name"
+              required
+            />
+          </div>
+          <br />
+          <!-- For gender -->
+          <label
+            >Gender: <input type="radio" id="male" name="gender" />Male
+          </label>
+          <label>
+            <input type="radio" id="female" name="gender" />Female
+          </label>
+          <br />
+          <br />
+          <!-- For email -->
+          <label>
+            Email:
+            <input type="email" id="email" placeholder="Enter your email" />
+          </label>
+          <br />
+          <br />
+          <!-- For country -->
+          <label for="country"
+            >Country:
+            <select id="country">
+              <option value="Nepal">Nepal</option>
+            </select>
+          </label>
+          <br />
+          <br />
+          <!-- For message -->
+          <label for="message">
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              columns="50"
+              placeholder="Type Your Message here..."
+            ></textarea>
+            <br>
+          </label>
+          <!-- For submit -->
+           <button>Submit</button>
+        </form>
+      </div>
+    </div>
+
+      <!-- Listing -->
+       <div class="list">
+       <p>Unorderd-List</p>
+      <ul>
+        <li>
+          Coffee
+          <ul>
+            <li>Milk Coffee</li>
+            <li>Black Coffee</li>
+          </ul>
+        </li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <p>Ordered List</p>
+      <ol>
+        <li>Coffee</li>
+        <li>
+          Tea
+          <ol type="a">
+            <li>Milk Tea</li>
+            <li>Black Tea</li>
+          </ol>
+        </li>
+        <li>Milk</li>
+      </ol>
+      </div>
+  </body>
+</html>
